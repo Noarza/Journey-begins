@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.big {
+    padding-top: 50px;
+    background-color: #ffffff;
+    /* border: 2px solid black; */
+}
+
+h2 {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+
+}
+
+/* ปรับแต่งฟอร์ม */
+.top-bar {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.top-no {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-no .form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.top-no .form-select,
+.top-no .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.top-no .form-select:focus,
+.top-no .form-control:focus {
+    border-color: #ff7b00;
+    box-shadow: 0 0 8px rgba(255, 196, 3, 0.6);
+}
+
+.top-no .btn-primary {
+    background-color: #ff8800;
+    border-color: #ff8800;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.top-no .btn-primary:hover {
+    background-color: #ffa32b;
+    border-color: #ffb429;
+}
+
+h2 {
+    text-align: center;
+    color: #ff7b00;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* ปรับแต่งปุ่มค้นหาตั๋ว */
+.top-no .btn-primary {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* ปรับแต่งส่วน h3 */
+h3 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff7b00;
+    font-size: 23px;
+}
+
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    /* จัดแนวกลาง */
+    gap: 10px;
+    /* ระยะห่างระหว่างกล่อง */
+    padding: 20px;
+    /* ระยะห่างรอบนอก */
+}
+
+.box {
+    width: 300px;
+    /* ความกว้าง */
+    height: 280px;
+    /* ความสูง */
+    border: 2px solid rgb(255, 255, 255);
+    /* กรอบหนา 2px สีดำ */
+    padding: 10px;
+    /* ระยะห่างภายในกล่อง */
+    border-radius: 5px;
+    /* มุมโค้งของกรอบ */
+    background-color: rgb(255, 255, 255);
+    /* สีพื้นหลัง */
+    display: flex;
+    flex-direction: column;
+    /* จัดเรียงเนื้อหาในแนวตั้ง */
+    justify-content: space-between;
+    /* กระจายเนื้อหา */
+    align-items: center;
+    /* จัดเนื้อหาในกล่องให้อยู่กลางแนวนอน */
+    text-align: center;
+    /* จัดข้อความให้อยู่กลาง */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* เพิ่มเงา */
+}
+
+.box img {
+    max-width: 100%;
+    /* ขนาดภาพไม่เกินขนาดกล่อง */
+    height: auto;
+    /* รักษาอัตราส่วนของภาพ */
+    border-radius: 5px;
+    /* มุมโค้งของภาพ */
+}
+
+.box p {
+    margin: 0;
+    /* ไม่มีระยะห่างด้านบนและด้านล่าง */
+    padding-top: 10px;
+    /* ระยะห่างด้านบนของข้อความ */
+}
+
+.footer-container {
+    margin-top: 150px;
+    background-color: #282828;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul {
+    padding-left: 0;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    margin-top: 20px;
+    padding-top: 10px;
+}

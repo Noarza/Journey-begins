@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #12af79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking-form {
+    background: #fff;
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 465px;
+    padding-right: 465px;
+
+    border: solid 1px #f10c0c;
+    /* border-radius: 10px; */
+
+}

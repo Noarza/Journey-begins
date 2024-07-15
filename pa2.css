@@ -1,0 +1,112 @@
+/* pa2.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.box-link {
+    text-decoration: none;
+    color: inherit;
+    /* กำจัดเส้นใต้และรักษาสีของข้อความ */
+}
+
+.box {
+    width: 880px;
+    height: 147px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.left-content {
+    width: 50%;
+    padding-right: 20px;
+    color: #ff7b00;
+}
+
+.right-content {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-content img {
+    max-width: 120px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.right-content p {
+    margin-left: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff7b00;
+}
+
+.left-content i {
+    margin-right: 10px;
+}
+
+.left-content i.fa-bus {
+    color: #007bff;
+}
+
+.left-content i.fa-shuttle-van {
+    color: #28a745;
+}
+
+/* พื้นหลัง */
+body {
+    background-color: #f0f8ff;
+    /* เปลี่ยนสีพื้นหลังของ body */
+}
+
+.back-button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.back-button button {
+    background-color: #ffaa00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button button:hover {
+    background-color: #ff8800;
+}
+
+p {
+    font-size: 20px;
+}

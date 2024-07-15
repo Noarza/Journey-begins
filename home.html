@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fristH.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <section class="big">
+        <h2>เว็บไซต์นี้จะรวบรวมข้อมูลที่เกี่ยวกับการเดินทางไปอำเภอรองที่ครบครัน <br> สะดวก เข้าใจง่าย
+            ช่วยให้คุณวางแผนการท่องเที่ยวได้อย่างราบรื่น โดยไม่ต้องพึ่งพาการใช้รถส่วนตัว</h2>
+
+        <div class="top-bar">
+            <form class="top-no row g-3">
+                <!-- จังหวัด -->
+                <div class="col-md-3">
+                    <label for="departure" class="form-label">จังหวัด</label>
+                    <select id="departure" class="form-select">
+                        <option value="เชียงใหม่ อาเขต 2">เชียงใหม่</option>
+                        <option value="กรุงเทพมหานคร">กรุงเทพมหานคร</option>
+                        <option value="ภูเก็ต">ภูเก็ต</option>
+                    </select>
+                </div>
+
+                <!-- อำเภอ -->
+                <div class="col-md-3">
+                    <label for="district" class="form-label">อำเภอ</label>
+                    <select id="district" class="form-select">
+                        <option value="เชียงดาว รถ ประจําทาง">เชียงดาว</option>
+                        <option value="เชียงใหม่">เชียงใหม่</option>
+                        <option value="กรุงเทพมหานคร">กรุงเทพมหานคร</option>
+                    </select>
+                </div>
+
+                <!-- ค้นหาสถานที่ท่องเที่ยว -->
+                <div class="col-md-4">
+                    <label for="search" class="form-label">ค้นหาสถานที่ท่องเที่ยว</label>
+                    <input type="text" id="search" class="form-control" placeholder="กรอกชื่อสถานที่ท่องเที่ยว">
+                </div>
+
+                <div class="col-md-2 d-flex align-items-end">
+                    <button type="button" class="btn btn-primary"
+                        onclick="window.location.href='home2.html';">ค้นหา</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <h3>สถานที่ท่องเที่ยวยอดนิยม</h3>
+
+        <div class="container">
+            <div class="box">
+                <img src="น้ำตกศรี.jpg" alt="Image 1">
+                <p>เชียงใหม่-เชียงดาว</p>
+                <p>น้ำตกศรีสังวาลย์</p>
+            </div>
+            <div class="box">
+                <img src="ตลาดม้งบ้านห้วยลึก​.jpg" alt="Image 2">
+                <p>เชียงใหม่-เชียงดาว</p>
+                <p>ตลาดม้งบ้านห้วยลึก​</p>
+            </div>
+            <div class="box">
+                <img src="อ่างเก็บน้ำ.jpg" alt="Image 3">
+                <p>เชียงใหม่-เชียงดาว</p>
+                <p>อ่างเก็บน้ำห้วยลึก</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h2>เกี่ยวกับเรา</h2>
+                    <p>เราคือเว็บไซต์ที่มุ่งเน้นการให้ข้อมูลและบริการที่ดีที่สุดสำหรับการท่องเที่ยวในประเทศไทย</p>
+                </div>
+                <div class="footer-section links">
+                    <h2>ลิงก์ที่น่าสนใจ</h2>
+                    <ul>
+                        <li><a href="#">หน้าแรก</a></li>
+                        <li><a href="#">สถานที่ท่องเที่ยว</a></li>
+                        <li><a href="#">บทความ</a></li>
+                        <li><a href="#">ติดต่อเรา</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h2>ติดต่อเรา</h2>
+                    <p>อีเมล: info@example.com</p>
+                    <p>โทรศัพท์: 012-345-6789</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
