@@ -8,26 +8,38 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff; /* เปลี่ยนสีพื้นหลังของ body */
+    background-color: #f0f8ff;
+    /* เปลี่ยนสีพื้นหลังของ body */
+    margin: 0;
+    /* ลบการกำหนด margin เพิ่มเติม */
+    padding: 0;
+    /* ลบการกำหนด padding เพิ่มเติม */
 }
 
 .container {
     display: flex;
-    flex-wrap: wrap; /* แสดงกล่องในหลายบรรทัด */
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     padding: 20px;
+    max-width: 1200px;
+    /* เพิ่ม max-width เพื่อจำกัดความกว้างของ container */
+    margin: 0 auto;
+    /* จัดกลาง container ในหน้าจอ */
 }
 
 .box-link {
     text-decoration: none;
     color: inherit;
-    display: block; /* ทำให้ลิงก์เต็มพื้นที่ของกล่อง */
+    display: block;
+    /* ทำให้ลิงก์เต็มพื้นที่ของกล่อง */
 }
 
 .box {
-    max-width: 100%;
-    width: 880px; /* ขนาดมาตรฐานสำหรับหน้าจอใหญ่ */
+    width: 100%;
+    /* ปรับขนาดกล่องให้เต็ม container */
+    max-width: 880px;
+    /* ขนาดมาตรฐานสำหรับหน้าจอใหญ่ */
     height: 147px;
     background-color: #ffffff;
     border: 1px solid #ccc;
@@ -37,6 +49,8 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: 20px;
+    /* เพิ่ม margin-bottom เพื่อเว้นระยะห่างระหว่างกล่อง */
 }
 
 .box:hover {
